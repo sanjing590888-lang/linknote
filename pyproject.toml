@@ -14,6 +14,13 @@ dependencies = [
     "requests>=2.31",
 ]
 
+[project.urls]
+Homepage = "https://github.com/sanjing590888-lang/linknote"
+Documentation = "https://github.com/sanjing590888-lang/linknote/blob/main/docs/USAGE.md"
+Repository = "https://github.com/sanjing590888-lang/linknote"
+Issues = "https://github.com/sanjing590888-lang/linknote/issues"
+Changelog = "https://github.com/sanjing590888-lang/linknote/blob/main/RELEASE_NOTES.md"
+
 [project.optional-dependencies]
 # 抖音适配器需要真实浏览器（平台接口有签名校验，纯 HTTP 拿不到数据）
 douyin = ["playwright>=1.40"]
@@ -27,3 +34,4 @@ include = ["linknote*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
