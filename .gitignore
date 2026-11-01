@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# 真实验证产物一律不入库
+linknote-notes/
+out/
+**/linknote-notes/**
+*.log
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
+# 本机配置与运行缓存
+.env.*
+!.env.example
+**/.linknote/
+live-review-output/
+review_*.py
